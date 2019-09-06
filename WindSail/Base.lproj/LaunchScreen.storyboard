@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="0g7-oI-O3d">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-8E-ARZ">
+                                <rect key="frame" x="153.33333333333334" y="364" width="70" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Hm4-Y5-hvI"/>
+                                    <constraint firstAttribute="height" constant="85" id="e4k-dx-w4u"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WindSail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lg2-vd-yX5">
+                                <rect key="frame" x="145.33333333333334" y="464" width="84.666666666666657" height="26.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="ROJ-TO-3EJ">
+                                <rect key="frame" x="-4" y="578" width="379" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="5gT-Wb-WHZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0g7-oI-O3d" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3Vc-rB-TaF"/>
+                            <constraint firstItem="Lg2-vd-yX5" firstAttribute="top" secondItem="pLw-8E-ARZ" secondAttribute="bottom" constant="15" id="Ec2-pA-JnQ"/>
+                            <constraint firstItem="pLw-8E-ARZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Mub-Kw-BwG"/>
+                            <constraint firstItem="ROJ-TO-3EJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-4" id="PeB-Ka-Sta"/>
+                            <constraint firstItem="pLw-8E-ARZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XWY-ut-kgJ"/>
+                            <constraint firstItem="ROJ-TO-3EJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="akc-MC-dVZ"/>
+                            <constraint firstItem="Lg2-vd-yX5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="d8F-0H-ChS"/>
+                            <constraint firstItem="ROJ-TO-3EJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="g64-qX-qlS"/>
+                            <constraint firstItem="0g7-oI-O3d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gyl-yA-RS7"/>
+                            <constraint firstItem="0g7-oI-O3d" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="lgK-Zp-FV9"/>
+                            <constraint firstItem="0g7-oI-O3d" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rh6-bA-mWD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="1125" height="2436"/>
+        <image name="footer" width="1148" height="425"/>
+        <image name="logo" width="219" height="265"/>
+    </resources>
+</document>

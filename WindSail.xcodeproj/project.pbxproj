@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872759626727838B46F50B45 /* Pods_WindSail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF69B44898A917724C9F905 /* Pods_WindSail.framework */; };
+		CF3BB12E231FAFB100A0049A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BB12D231FAFB100A0049A /* AppDelegate.swift */; };
+		CF3BB130231FAFB100A0049A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BB12F231FAFB100A0049A /* ViewController.swift */; };
+		CF3BB133231FAFB100A0049A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3BB131231FAFB100A0049A /* Main.storyboard */; };
+		CF3BB135231FAFB100A0049A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3BB134231FAFB100A0049A /* Assets.xcassets */; };
+		CF3BB138231FAFB100A0049A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3BB136231FAFB100A0049A /* LaunchScreen.storyboard */; };
+		CF3BB15D2320E96A00A0049A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3BB15E2320E96A00A0049A /* Alamofire.framework */; };
+		CFD35B4C2321031C0081FFB0 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD35B4B2321031C0081FFB0 /* DashboardController.swift */; };
+		CFD35B4E232105DF0081FFB0 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD35B4D232105DF0081FFB0 /* ProfileController.swift */; };
+		CFD35B6E23221E6D0081FFB0 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD35B6D23221E6D0081FFB0 /* ProductController.swift */; };
+		CFD35B71232234440081FFB0 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD35B70232234440081FFB0 /* ProductModel.swift */; };
+		CFD35B742322368F0081FFB0 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD35B732322368F0081FFB0 /* ProductTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19CFC61FF7E2A4B6AB2A5F05 /* Pods-WindSail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindSail.debug.xcconfig"; path = "Target Support Files/Pods-WindSail/Pods-WindSail.debug.xcconfig"; sourceTree = "<group>"; };
+		5515610D9BDF771CB39BB838 /* Pods-WindSail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindSail.release.xcconfig"; path = "Target Support Files/Pods-WindSail/Pods-WindSail.release.xcconfig"; sourceTree = "<group>"; };
+		CF3BB12A231FAFB100A0049A /* WindSail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindSail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3BB12D231FAFB100A0049A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3BB12F231FAFB100A0049A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF3BB132231FAFB100A0049A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3BB134231FAFB100A0049A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3BB137231FAFB100A0049A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3BB139231FAFB100A0049A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3BB15E2320E96A00A0049A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD35B4B2321031C0081FFB0 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		CFD35B4D232105DF0081FFB0 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		CFD35B6D23221E6D0081FFB0 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		CFD35B70232234440081FFB0 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		CFD35B732322368F0081FFB0 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		EAF69B44898A917724C9F905 /* Pods_WindSail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindSail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3BB127231FAFB100A0049A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3BB15D2320E96A00A0049A /* Alamofire.framework in Frameworks */,
+				872759626727838B46F50B45 /* Pods_WindSail.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0666AFB734BF5F4771F667B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BB15E2320E96A00A0049A /* Alamofire.framework */,
+				EAF69B44898A917724C9F905 /* Pods_WindSail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBEEC2C041D650EB25A0A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19CFC61FF7E2A4B6AB2A5F05 /* Pods-WindSail.debug.xcconfig */,
+				5515610D9BDF771CB39BB838 /* Pods-WindSail.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF3BB121231FAFB100A0049A = {
+			isa = PBXGroup;
+			children = (
+				CF3BB12C231FAFB100A0049A /* WindSail */,
+				CF3BB12B231FAFB100A0049A /* Products */,
+				BDBEEC2C041D650EB25A0A5F /* Pods */,
+				0666AFB734BF5F4771F667B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3BB12B231FAFB100A0049A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3BB12A231FAFB100A0049A /* WindSail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3BB12C231FAFB100A0049A /* WindSail */ = {
+			isa = PBXGroup;
+			children = (
+				CFD35B72232236200081FFB0 /* Cell */,
+				CFD35B6F232234040081FFB0 /* Model */,
+				CF3BB12D231FAFB100A0049A /* AppDelegate.swift */,
+				CF3BB12F231FAFB100A0049A /* ViewController.swift */,
+				CFD35B4B2321031C0081FFB0 /* DashboardController.swift */,
+				CFD35B4D232105DF0081FFB0 /* ProfileController.swift */,
+				CFD35B6D23221E6D0081FFB0 /* ProductController.swift */,
+				CF3BB131231FAFB100A0049A /* Main.storyboard */,
+				CF3BB134231FAFB100A0049A /* Assets.xcassets */,
+				CF3BB136231FAFB100A0049A /* LaunchScreen.storyboard */,
+				CF3BB139231FAFB100A0049A /* Info.plist */,
+			);
+			path = WindSail;
+			sourceTree = "<group>";
+		};
+		CFD35B6F232234040081FFB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFD35B70232234440081FFB0 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFD35B72232236200081FFB0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CFD35B732322368F0081FFB0 /* ProductTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3BB129231FAFB100A0049A /* WindSail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3BB13C231FAFB100A0049A /* Build configuration list for PBXNativeTarget "WindSail" */;
+			buildPhases = (
+				0B05C8184C3CC2FA68A1F538 /* [CP] Check Pods Manifest.lock */,
+				CF3BB126231FAFB100A0049A /* Sources */,
+				CF3BB127231FAFB100A0049A /* Frameworks */,
+				CF3BB128231FAFB100A0049A /* Resources */,
+				8EF1B08656A797AA01F64B70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindSail;
+			productName = WindSail;
+			productReference = CF3BB12A231FAFB100A0049A /* WindSail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3BB122231FAFB100A0049A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Samit Koyom";
+				TargetAttributes = {
+					CF3BB129231FAFB100A0049A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF3BB125231FAFB100A0049A /* Build configuration list for PBXProject "WindSail" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3BB121231FAFB100A0049A;
+			productRefGroup = CF3BB12B231FAFB100A0049A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3BB129231FAFB100A0049A /* WindSail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3BB128231FAFB100A0049A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3BB138231FAFB100A0049A /* LaunchScreen.storyboard in Resources */,
+				CF3BB135231FAFB100A0049A /* Assets.xcassets in Resources */,
+				CF3BB133231FAFB100A0049A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B05C8184C3CC2FA68A1F538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WindSail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF1B08656A797AA01F64B70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WindSail/Pods-WindSail-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WindSail/Pods-WindSail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3BB126231FAFB100A0049A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3BB130231FAFB100A0049A /* ViewController.swift in Sources */,
+				CFD35B71232234440081FFB0 /* ProductModel.swift in Sources */,
+				CFD35B742322368F0081FFB0 /* ProductTableViewCell.swift in Sources */,
+				CFD35B4C2321031C0081FFB0 /* DashboardController.swift in Sources */,
+				CF3BB12E231FAFB100A0049A /* AppDelegate.swift in Sources */,
+				CFD35B6E23221E6D0081FFB0 /* ProductController.swift in Sources */,
+				CFD35B4E232105DF0081FFB0 /* ProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF3BB131231FAFB100A0049A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3BB132231FAFB100A0049A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3BB136231FAFB100A0049A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3BB137231FAFB100A0049A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3BB13A231FAFB100A0049A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3BB13B231FAFB100A0049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3BB13D231FAFB100A0049A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CFC61FF7E2A4B6AB2A5F05 /* Pods-WindSail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAQMM87896;
+				INFOPLIST_FILE = WindSail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itgenius.WindSail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3BB13E231FAFB100A0049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5515610D9BDF771CB39BB838 /* Pods-WindSail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAQMM87896;
+				INFOPLIST_FILE = WindSail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itgenius.WindSail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3BB125231FAFB100A0049A /* Build configuration list for PBXProject "WindSail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3BB13A231FAFB100A0049A /* Debug */,
+				CF3BB13B231FAFB100A0049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3BB13C231FAFB100A0049A /* Build configuration list for PBXNativeTarget "WindSail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3BB13D231FAFB100A0049A /* Debug */,
+				CF3BB13E231FAFB100A0049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3BB122231FAFB100A0049A /* Project object */;
+}
